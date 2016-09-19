@@ -1,0 +1,31 @@
+{
+  "name": "esri-storymap-generator",
+  "version": "0.1.3",
+  "description": "Create storymap website based on image folder",
+  "preferGlobal": true,
+  "main": "./index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/damylen/EsriStoryMapGenerator.git"
+  },
+  "keywords": [
+    "esri",
+    "storymap",
+    "images"
+  ],
+  "bin": {
+    "storymap": "./index.js"
+  },
+  "author": "Arnoud de Jong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/damylen/EsriStoryMapGenerator/issues"
+  },
+  "homepage": "https://github.com/damylen/EsriStoryMapGenerator#readme",
+  "dependencies": {
+    "fs-extra": "^0.30.0"
+  }
+}
