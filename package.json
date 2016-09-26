@@ -1,6 +1,6 @@
 {
   "name": "esri-storymap-generator",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Create storymap website based on image folder",
   "preferGlobal": true,
   "main": "./index.js",
@@ -26,6 +26,11 @@
   },
   "homepage": "https://github.com/damylen/EsriStoryMapGenerator#readme",
   "dependencies": {
-    "fs-extra": "^0.30.0"
+    "async": "^2.0.1",
+    "exif": "^0.6.0",
+    "fs-extra": "^0.30.0",
+    "jimp": "^0.2.27",
+    "lodash": "^4.16.1",
+    "path": "^0.12.7"
   }
 }
